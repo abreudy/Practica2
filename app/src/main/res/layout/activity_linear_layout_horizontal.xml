@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearLayoutHorizontalActivity">
+
+    <Button
+        android:id="@+id/btnAmarillo"
+        android:layout_marginTop="200dp"
+        android:onClick="goAmarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/amarillo" />
+
+
+
+    <Button
+        android:id="@+id/btnRojo"
+        android:layout_marginTop="200dp"
+        android:onClick="goRojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/rojo" />
+
+    <Button
+        android:id="@+id/btnVerde"
+        android:layout_marginTop="200dp"
+        android:onClick="goVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/verde" />
+
+    <Button
+        android:id="@+id/btnAzul"
+        android:layout_marginTop="200dp"
+        android:onClick="goAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/azul" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnAmarillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="1dp"
+            android:background="@color/Amarillo"
+            android:onClick="goAmarillo"
+            android:text="@string/amarillo" />
+
+        <Button
+            android:id="@+id/btnRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="1dp"
+            android:background="@color/Rojo"
+            android:onClick="goRojo"
+            android:text="@string/rojo"
+            />
+
+        <Button
+            android:id="@+id/btnVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="1dp"
+            android:background="@color/Verde"
+            android:onClick="goVerde"
+            android:text="@string/verde" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnRosa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="1dp"
+            android:background="@color/Rosa"
+            android:onClick="goRosa"
+            android:text="@string/rosa" />
+
+        <Button
+            android:id="@+id/btnAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="1dp"
+            android:background="@color/Azul"
+            android:onClick="goAzul"
+            android:text="@string/azul" />
+    </TableRow>
+
+</TableLayout>

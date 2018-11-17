@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Principal Activity</string>
+    <string name="boton_linear_layout_vertical">Boton Linear Layout Vertical</string>
+    <string name="boton_lineal_layout_horizontal">Boton Linear Layout Horizontal</string>
+    <string name="boton_relative_layout">Boton Relative Layout</string>
+    <string name="boton_table_layout">Boton Table Layout</string>
+    <string name="boton_frame_layout">Boton Frame Layout</string>
+    <string name="boton_list_view">Boton List View</string>
+    <string name="boton_grid_view">Boton Grid View</string>
+    <string name="desplegar_notificacion">Desplegar Notificacion</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="rosa">Rosa</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="prueba">Prueba</string>
+</resources>
